@@ -9,7 +9,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <style>
         .jumbotron {
-            background: url("http://www.californiafootgolfclub.com/static/img/footgolf-1.jpg") center center / cover no-repeat;
+            background: url("bacteria_background.jpg") center center / cover no-repeat;
+            background-size: cover;
+            position: relative;
+            width: 100% !important;
+            opacity: 0.76;
+        }
+
+        .jumbotron h1{
+          color: #000000;
+          opacity: 100% !important;
+        }
+
+        .jumbotron p{
+          color: #FFDF00;
+          opacity: 100%;
         }
   </style>
 </head>
@@ -18,10 +32,10 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
+      <div class="jumbotron text-center">
+          <h1 class="text-white bg-dark"><strong>Belly Button Biodiversity Dashboard</h1>
+          <p><strong>Use the interactive charts below to explore the dataset</p>
+        </div>
     </div>
     <div class="row">
       <div class="col-md-2">
